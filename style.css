@@ -1,0 +1,66 @@
+/* https://fonts.google.com/icons */
+.nav-bar-top{
+    border: 1px solid grey;
+    padding: 16px;
+    background:tan;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width:100%;
+    top: 0;
+    /* background-color:honeydew; */
+}
+
+.nav-bar li{
+    float: right;   
+}
+
+.nav-bar li a{
+    display:block;
+    color:saddlebrown;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+.nav-bar li a:hover{
+    color:salmon;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    border: 5px solid gray;
+    background-color: khaki;
+    width:100%
+}
+footer .nav-bottom {
+    list-style-type: none;
+    text-align:left;
+    padding: 0;
+    margin:0;
+}
+
+footer p{
+ color:slategrey;
+}
+
+
+footer .nav-bottom li{
+    float: left;
+}
+
+footer .nav-bottom li a{
+    display:block;
+    color:saddlebrown;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 8px;
+}
+
+footer .nav-bottom li a:hover{
+    color:salmon;
+}
+
+
