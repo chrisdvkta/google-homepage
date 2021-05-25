@@ -1,66 +1,110 @@
-/* https://fonts.google.com/icons */
-.nav-bar-top{
-    border: 1px solid grey;
-    padding: 16px;
-    background:tan;
+.nav-top {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(212, 90, 90);
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
 }
-.nav-bar {
+
+.nav-top ul{
+    background:gray;
+    margin-left: auto;
+}
+
+.nav-top ul li{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width:100%;
-    top: 0;
-    /* background-color:honeydew; */
+    display: inline;
+    text-align: center;
 }
 
-.nav-bar li{
-    float: right;   
-}
-
-.nav-bar li a{
-    display:block;
-    color:saddlebrown;
+.nav-top ul li a{
     text-decoration: none;
-    padding: 14px 10px;
+    
 }
-.nav-bar li a:hover{
-    color:salmon;
+
+.nav-top a:hover{
+    color:rgb(127, 142, 143)
+}
+
+
+.center{
+    
+}
+
+.center #img{
+    margin-bottom: 10px;;
+    background-color: rgb(56, 38, 38);
+}
+
+#search-bar input{
+    display: block;
+    margin:auto;
+    font-size 20px;
+    padding: 8px 0 8px 20px;
+    border-radius: 28px;
+    width: 50%;
+
+}
+
+#search-bar input:focus{
+    outline: none;
+}
+
+#search-bar input:hover{
+    box-shadow: 2px 5px 4px grey;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    border-radius: 15px;
+    margin: 10px;
+    background-color: seashell;
+}
+
+.btn button:hover{
+    box-shadow: 1px 5px 4px grey;
+}
+
+.btn button:focus{
+    outline: none;
 }
 
 footer{
-    position: fixed;
-    bottom:0;
-    border: 5px solid gray;
-    background-color: khaki;
-    width:100%
+    position: absolute;
+    bottom:0px;
 }
-footer .nav-bottom {
-    list-style-type: none;
-    text-align:left;
-    padding: 0;
-    margin:0;
-}
-
 footer p{
- color:slategrey;
+    color:cadetblue;
+    opacity:75%;
 }
 
-
-footer .nav-bottom li{
-    float: left;
+footer hr{
+    color:slategrey;
+    opacity: 25%;
 }
 
-footer .nav-bottom li a{
-    display:block;
-    color:saddlebrown;
-    text-align: center;
+footer .nav-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer .nav-bottom ul{
+    list-style-type: none;
+}
+
+footer .nav-bottom ul li{
+    display: inline;
+}
+
+footer .nav-bottom ul li a{
     text-decoration: none;
-    padding: 1px 8px;
 }
 
-footer .nav-bottom li a:hover{
-    color:salmon;
+.nav-bottom li a:hover{
+    color:rgb(127, 142, 143);
 }
-
-
