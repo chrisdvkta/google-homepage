@@ -7,7 +7,7 @@ Day 2
 Trackback to flexbox and alignment
 
 Day 3 
-Trackback to flexbox again. (Bruh i keep forgetting)
+Trackback to flexbox again. 
 
 Day 4 
 Layout and alignments done! 
